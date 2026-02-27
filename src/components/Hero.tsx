@@ -18,7 +18,7 @@ export function Hero() {
             <img
               alt="Aung Myint Thu Professional Portrait"
               className="w-full h-full object-cover transition-all duration-700"
-              src="/profile.webp"
+              src="./profile.webp"
             />
           </motion.div>
           <motion.div

@@ -14,7 +14,7 @@ export function BadgeSection() {
           <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
           <div className="relative size-40 md:size-48 flex items-center justify-center">
             <img
-              src="/pmp.png"
+              src="./pmp.png"
               alt="PMP Certified Badge"
               className="w-full h-full object-contain filter drop-shadow-xl"
             />
