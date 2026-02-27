@@ -1,41 +1,44 @@
 import { Database, Heart, Smartphone } from 'lucide-react';
 import { motion } from 'motion/react';
-
-const skills = [
-  {
-    icon: Smartphone,
-    title: 'Digital Health',
-    description:
-      'Implementing scalable digital solutions, from telemedicine platforms to automated patient management systems.',
-  },
-  {
-    icon: Heart,
-    title: 'Harm Reduction',
-    description:
-      'Evidence-based strategies for public health safety, needle exchange programs, and overdose prevention protocols.',
-  },
-  {
-    icon: Database,
-    title: 'Health Informatics',
-    description:
-      'Harnessing data-driven decision making to optimize clinical outcomes and operational efficiency in healthcare units.',
-  },
-];
+import { useTranslation } from 'react-i18next';
 
 export function Skills() {
+  const { t } = useTranslation();
+
+  const skills = [
+    {
+      icon: Smartphone,
+      title: 'Digital Health',
+      description:
+        'Implementing scalable digital solutions, from telemedicine platforms to automated patient management systems.',
+    },
+    {
+      icon: Heart,
+      title: 'Harm Reduction',
+      description:
+        'Evidence-based strategies for public health safety, needle exchange programs, and overdose prevention protocols.',
+    },
+    {
+      icon: Database,
+      title: 'Health Informatics',
+      description:
+        'Harnessing data-driven decision making to optimize clinical outcomes and operational efficiency in healthcare units.',
+    },
+  ];
+
   return (
     <section className="px-6 md:px-20 lg:px-40 py-24" id="expertise">
       <div className="max-w-7xl mx-auto">
         <div className="mb-16">
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             className="text-slate-900 dark:text-white text-4xl font-black tracking-tight mb-4"
           >
-            Core Expertise
+            {t('skills.title')}
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

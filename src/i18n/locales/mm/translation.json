@@ -1,0 +1,94 @@
+{
+    "nav": {
+        "home": "ပင်မစာမျက်နှာ",
+        "experience": "အတွေ့အကြုံ",
+        "skills": "ကျွမ်းကျင်မှု",
+        "contact": "Credly Profile"
+    },
+    "hero": {
+        "available": "အတွေ့အကြုံသစ် များအတွက် အသင့်ရှိပါတယ်",
+        "name": "Aung Myint Thu",
+        "roles": "MBBS, MPA, PMP",
+        "description": "ဆရာဝန်အတွေ့အကြုံနှင့် နည်းပညာဆန်းသစ်တီထွင်မှုကို ပေါင်းကူးပေးခြင်း။ <1>Harm Reduction</1> နှင့် <3>Digital Health</3> စနစ်များ၏ အနာဂတ်ကို ဦးဆောင်လျက်။"
+    },
+    "experience": {
+        "title": "လုပ်ငန်းအတွေ့အကြုံ နှင့် ဖြတ်သန်းမှု",
+        "jobs": {
+            "po": {
+                "title": "Project Officer (Harm Reduction)",
+                "company": "မြန်မာနိုင်ငံ မူးယစ်ဆေးဝါး ဆန့်ကျင်ရေးအသင်း",
+                "date": "၂၀၁၆ - လက်ရှိ",
+                "description": "မူးယစ်ဆေးသုံးစွဲသူများအတွက် အန္တရာယ်လျှော့ချရေးအစီအစဉ်များ ဦးဆောင်ခြင်း၊ ညှိုနှိုင်းဆောင်ရွက်ခြင်း၊ လူထုအခြေပြု ကျန်းမာရေးစောင့်ရှောက်မှုပေးခြင်း၊ လူ့အခွင့်အရေးကို ဦးစားပေးသော ကျန်းမာရေးဝန်ဆောင်မှုများကို တောရော မြို့ပါမကျန် လက်လှမ်းမှီစေရန် ဆောင်ရွက်ပေးခြင်း"
+            },
+            "pmp": {
+                "title": "Project Management Professional (PMP)",
+                "company": "Global Certification • Project Management Institute (PMI)",
+                "date": "၂၀၂၅",
+                "description": "Mastered strategic project execution and operational efficiency in complex clinical environments and digital health implementations."
+            },
+            "mpa": {
+                "title": "MPA Public Administration",
+                "company": "Policy & Management Concentration",
+                "date": "၂၀၂၃",
+                "description": "Developed frameworks for public health policy, focusing on harm reduction strategies and community-based health interventions across Myanmar."
+            },
+            "gp": {
+                "title": "ဆရာဝန်",
+                "company": "ကိုယ်ပိုင်ဆေးခန်း",
+                "date": "၂၀၁၁ - ၂၀၁၆",
+                "description": "ပြည်သူအခြေပြု ကျန်းမာရေးစောင့်ရှောက်မှုများ ပေးအပ်ခြင်း။"
+            }
+        },
+        "download_resume": "Download Resume"
+    },
+    "skills": {
+        "title": "Technical Expertise",
+        "sections": {
+            "tech": "Technologies",
+            "tools": "Tools",
+            "pro": "Professional Skills"
+        }
+    },
+    "projects": {
+        "title": "Selected Works & Case Studies",
+        "subtitle": "Showcasing technical innovation applied to public health systems and logistical challenges.",
+        "items": {
+            "p1": {
+                "title": "Automated Health Data Reconciliation System",
+                "description": "Engineered an automated data cross-checking tool to reconcile service and logistics records. Replaced a time-consuming manual process with an instant, unified dashboard that identifies data discrepancies in real-time. This system directly reduced data entry errors and inconsistencies by 40%, significantly improving overall data integrity and operational efficiency.",
+                "tech": [
+                    "Microsoft Access",
+                    "Excel",
+                    "SQL",
+                    "Power Query"
+                ]
+            },
+            "p2": {
+                "title": "Logistics & Commodity Tracking Dashboard",
+                "description": "Designed a robust Microsoft Access and Power BI ecosystem to track commodity movement across project sites using a Star schema database structure. The system enforces First-Expired-First-Out (FEFO) logic and flags expiry risks. The integrated dashboard provides decision-makers with actionable insights to optimize routes and reduce medical supply waste.",
+                "tech": [
+                    "Microsoft Access",
+                    "SQL",
+                    "Power BI",
+                    "SharePoint"
+                ]
+            },
+            "p3": {
+                "title": "Public Health Enterprise Architecture Model",
+                "description": "Drafted a complete digital transformation proposal for a national public health initiative involving Global Goods. Modeled leveraging the WHO Academy's Digital Health framework, the project outlines an enterprise architecture focused on ethical considerations and the 7 building blocks of an enabling environment, aiming for Level 5 digital healthcare usage.",
+                "tech": [
+                    "Digital Health Atlas",
+                    "Global Digital Health Index",
+                    "Enterprise Planning"
+                ]
+            }
+        }
+    },
+    "footer": {
+        "title": "ဆက်သွယ်ရန်",
+        "subtitle": "Let's build something amazing together.",
+        "button": "Send a Message",
+        "copyright": "Aung Myint Thu. All rights reserved.",
+        "quote": "ဘဝဆိုတာ ပြောပြတာမဟုတ်ဘူး၊ ဖန်တီးပြတာ"
+    }
+}

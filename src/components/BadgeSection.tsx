@@ -12,11 +12,12 @@ export function BadgeSection() {
           className="relative group"
         >
           <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-          <div className="relative size-40 md:size-48 bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 rounded-full flex items-center justify-center shadow-inner border border-white/50 dark:border-white/10">
-            <Award className="size-20 md:size-24 text-primary" strokeWidth={1} />
-            <div className="absolute bottom-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-              VERIFIED
-            </div>
+          <div className="relative size-40 md:size-48 flex items-center justify-center">
+            <img
+              src="/pmp.png"
+              alt="PMP Certified Badge"
+              className="w-full h-full object-contain filter drop-shadow-xl"
+            />
           </div>
         </motion.div>
 
