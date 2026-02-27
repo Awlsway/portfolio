@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Public Sans", "Noto Sans Myanmar", sans-serif;
+  --font-sans: "Public Sans", "Noto Sans Myanmar", sans-serif;
+
+  --color-primary: #0866FF;
+  --color-background-light: #F0F2F5;
+  --color-background-dark: #18191A;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    @apply bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200;
+  }
+}
